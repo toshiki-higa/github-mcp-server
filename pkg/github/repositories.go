@@ -661,7 +661,7 @@ func DeleteFile(getClient GetClientFn, t translations.TranslationHelperFunc) (to
 
 			// Create a response similar to what the DeleteFile API would return
 			response := map[string]interface{}{
-				"commit": newCommit,
+				"commit":  newCommit,
 				"content": nil,
 			}
 
